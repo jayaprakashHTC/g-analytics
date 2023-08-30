@@ -11,6 +11,6 @@ export class HomeComponent {
 
   }
   onSubmit(){
-    this.router.navigate(['/', 'about']);
+    this.router.navigate(['/', 'thankyou']);
   }
 }

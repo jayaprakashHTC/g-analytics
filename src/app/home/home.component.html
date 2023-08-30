@@ -1,4 +1,12 @@
 <div>
   <h2>Home Page</h2>
-  <a routerLink="/about" class="about-page-nav">About page</a>
+  <div>
+    <a routerLink="/about" class="about-page-nav">About page</a>
+  </div>
+  <div>
+    <form id="signup-form">
+        <input type="email" />
+        <button type="submit" (click)="onSubmit()">Submit</button>
+    </form>
+  </div>
 </div>
